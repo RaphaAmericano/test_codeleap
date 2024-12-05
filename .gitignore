@@ -1,0 +1,58 @@
+# Sistema operacional
+.DS_Store
+Thumbs.db
+
+# Diretórios Python
+__pycache__/
+*.py[cod]
+
+# Ambiente Virtual
+venv/
+env/
+*.env
+
+# Arquivos de configuração
+*.sqlite3
+db.sqlite3
+*.log
+*.pot
+*.pyc
+
+# Configurações do Editor/IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Arquivos gerados por Testes e Cobertura
+htmlcov/
+.tox/
+.nox/
+.cache/
+.pytest_cache/
+.coverage
+coverage.xml
+*.cover
+*.py,cover
+
+# Arquivos gerados por Migrations
+migrations/__pycache__/
+*/migrations/__pycache__/
+
+# Estático e Media (opcional, se gerados localmente)
+staticfiles/
+media/
+
+# Gerenciadores de Pacotes
+pip-log.txt
+pip-delete-this-directory.txt
+node_modules/
+yarn-error.log
+
+# Django Secret Key (se armazenado localmente)
+*.key
+
+# Outros
+*.bak
+*.orig
+*.save
