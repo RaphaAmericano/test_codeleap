@@ -1,7 +1,7 @@
 from django.test import TestCase, Client
 from django.urls import reverse
 from base.models import Post
-import json
+
 class TestViews(TestCase):
 
     def setUp(self):

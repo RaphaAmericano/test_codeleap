@@ -1,0 +1,16 @@
+# Django framework
+Django==4.2.5
+
+# Django REST Framework
+djangorestframework==3.14.0
+
+# Testes
+pytest-django==4.5.2
+
+# Banco de dados (ajuste conforme seu uso)
+psycopg2-binary==2.9.7  # PostgreSQL
+# mysqlclient==2.2.0    # MySQL/MariaDB
+# sqlite3 (não precisa instalar separadamente)
+
+# Outras ferramentas úteis
+django-cors-headers==4.0.0  # Para lidar com CORS, se necessário
