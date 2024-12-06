@@ -3,12 +3,13 @@
 
 Base endpoint https://test-codeleap.onrender.com
 
+Exemplo: https://test-codeleap.onrender.com/careers
 
 ## Get Posts
 
 ### Request
 
-`GET /carrers`
+`GET /careers`
 
 ### Response
 
@@ -39,7 +40,7 @@ Base endpoint https://test-codeleap.onrender.com
 
 ### Request
 
-`POST /carrers`
+`POST /careers`
 
     {
 	    "username":"Raphael",
