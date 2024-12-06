@@ -87,11 +87,11 @@ DATABASES = {
     # }
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': config('DB_NAME'),  # 'DB_NAME' vem do arquivo .env
-        'USER': config('DB_USER'),  # 'DB_USER' vem do arquivo .env
-        'PASSWORD': config('DB_PASSWORD'),  # 'DB_PASSWORD' vem do arquivo .env
-        'HOST': config('DB_HOST'),  # 'DB_HOST' vem do arquivo .env
-        'PORT': config('DB_PORT', default=5432, cast=int),  #  
+        'NAME': config('DB_NAME'),  
+        'USER': config('DB_USER'),  
+        'PASSWORD': config('DB_PASSWORD'), 
+        'HOST': config('DB_HOST'), 
+        'PORT': config('DB_PORT', default=5432, cast=int),  
         'OPTIONS': {
             'sslmode': config('DB_SSL_MODE', default='require')
         }

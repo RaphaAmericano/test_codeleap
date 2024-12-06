@@ -9,7 +9,6 @@ def careers(request):
     if request.method == 'GET':
         posts = Post.objects.all()
         serializer = PostSerializer(posts, many=True)
-        # return Response(serializer.data)
         return JsonResponse(serializer.data, safe=False)
 
     elif request.method == 'POST':
@@ -22,7 +21,6 @@ def careers(request):
                 'content': serializer.data['content'],
                 }, status=status.HTTP_201_CREATED)
         return JsonResponse({ 'error': 'Invalid data', 'details': serializer.errors}, status=status.HTTP_400_BAD_REQUEST)
-    
     else:
         return JsonResponse({ 'error': 'Method not allowed'}, status=status.HTTP_405_METHOD_NOT_ALLOWED)
 
