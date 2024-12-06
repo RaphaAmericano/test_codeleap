@@ -16,3 +16,5 @@ psycopg2-binary==2.9.7  # PostgreSQL
 django-cors-headers==4.0.0  # Para lidar com CORS, se necessário
 
 gunicorn==23.0.0
+
+python-decouple==3.8
